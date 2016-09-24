@@ -6,7 +6,9 @@ DROP TABLE IF EXISTS nomenclature.hast_species CASCADE;
 DROP TABLE IF EXISTS nomenclature.hast_genus_w_tropicos CASCADE;
 
 CREATE TABLE nomenclature.hast_families (
-    hast_family_id serial PRIMARY KEY,
+    id serial PRIMARY KEY,
+    hast_family_id serial UNIQUE,
+    ptype integer, -- 1:Ferns 2:Gymnosperms, 3:Angiosperms
     family varchar NOT NULL,
     family_zh varchar,
     family_apgiv varchar,
@@ -14,12 +16,16 @@ CREATE TABLE nomenclature.hast_families (
 );
 
 CREATE TABLE nomenclature.hast_genus (
-    hast_genus_id serial PRIMARY KEY, 
+    id serial PRIMARY KEY,
+    hast_genus_id serial UNIQUE, 
     hast_family_id integer NOT NULL,
     family_id_apgiv integer,
     family_subid_apgiv integer,
+    family_apgiv varchar,
     genus varchar NOT NULL,
     genus_zh varchar,
+    genus_apgiv varchar,
+    genus_apgiv_zh varchar,
     CONSTRAINT "hast_genus_hast_family_id_fkey" FOREIGN KEY ("hast_family_id")
     REFERENCES nomenclature.hast_families ("hast_family_id") MATCH SIMPLE
     ON UPDATE CASCADE ON DELETE RESTRICT,
@@ -51,7 +57,8 @@ CREATE TABLE nomenclature.hast_genus_w_tropicos (
 );
 
 CREATE TABLE nomenclature.hast_species (
-    hast_species_id serial PRIMARY KEY,
+    id serial PRIMARY KEY,
+    hast_species_id integer UNIQUE,
     hast_genus_id integer,
     "name" varchar,
     "vernacularName" varchar,

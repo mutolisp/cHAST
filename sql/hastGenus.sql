@@ -3288,4 +3288,6 @@ COPY nomenclature.hast_genus (hast_genus_id, hast_family_id, genus, genus_zh) FR
 13386	610	Cardiocrinum	大百合屬 
 \.
 
+
+ALTER SEQUENCE hast_genus_hast_genus_id_seq RESTART 13387;
 COMMIT;

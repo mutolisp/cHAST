@@ -306,4 +306,5 @@ COPY nomenclature.hast_families (hast_family_id, family, family_zh ) FROM stdin;
 743	Centroplacaceae	安神木科
 \.
 
+ALTER SEQUENCE hast_families_hast_family_id_seq RESTART 744;
 COMMIT;
