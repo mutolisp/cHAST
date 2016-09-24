@@ -18,7 +18,8 @@ vacuum:
 	${PGSQL} -d ${DATABASE} -f hastVacuum.sql
 
 export:
-	${PGSQL} -d ${DATABASE} -c "COPY (SELECT * from nomenclature.hast_questionable_genus) TO '/Users/psilotum/Documents/Dropbox/projects/2016_HAST/checked/hast_questionable_genus.csv' WITH CSV HEADER";
-	${PGSQL} -d ${DATABASE} -c "COPY (SELECT * from nomenclature.hast_checked_genus) TO '/Users/psilotum/Documents/Dropbox/projects/2016_HAST/checked/hast_checked_genus.csv' WITH CSV HEADER";
-	${PGSQL} -d ${DATABASE} -c "COPY (SELECT * from nomenclature.hast_families order by hast_family_id) TO '/Users/psilotum/Documents/Dropbox/projects/2016_HAST/checked/hast_families.csv' WITH CSV HEADER;"
+	${PGSQL} -d ${DATABASE} -c "COPY (SELECT * from nomenclature.hast_questionable_genus) TO '/Users/psilotum/Documents/Dropbox/projects/2016_HAST/checked/hast_questionable_genus.csv' WITH CSV HEADER DELIMITER '	';"
+	${PGSQL} -d ${DATABASE} -c "COPY (SELECT * from nomenclature.hast_checked_genus) TO '/Users/psilotum/Documents/Dropbox/projects/2016_HAST/checked/hast_checked_genus.csv' WITH CSV HEADER DELIMITER '	' ;"
+	${PGSQL} -d ${DATABASE} -c "COPY (SELECT * from nomenclature.hast_families order by hast_family_id) TO '/Users/psilotum/Documents/Dropbox/projects/2016_HAST/checked/hast_families.csv' WITH CSV HEADER DELIMITER '	';"
+	${PGSQL} -d ${DATABASE} -c "COPY (SELECT hast_species_id,hast_genus_id,genus,name,\"vernacularName\" from nomenclature.hast_species) TO '/Users/psilotum/Documents/Dropbox/projects/2016_HAST/checked/hast_species.csv' WITH CSV HEADER DELIMITER '	';"
 

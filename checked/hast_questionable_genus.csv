@@ -1,63 +1,63 @@
-hast_genus_id,hast_family_id,family_apgiv,genus,genus_zh,acceptedGenus,acceptedNamecode
-1246,514,Apocynaceae,Stephanotis,舌瓣花屬,Marsdenia,1245
-1607,539,Asteraceae,Crassocephalum,昭和草屬,Gynura,1628
-402,327,Cactaceae,Frailea,,Parodia,13379
-351,324,Caryophyllaceae,Lychnis,剪夏羅屬,Silene,355
-12667,627,Cyperaceae,Dichromena,,Rhynchospora,1889
-819,415,Euphorbiaceae,Omalanthus,圓葉血桐屬,Homalanthus,826
-704,409,Fabaceae,Haematoxylon,墨水樹屬,Haematoxylum,13375
-13337,116,Lindsaeaceae,Stenoloma,,Odontosoria,2315
-871,421,Malpighiaceae,Triopteris,,Mascagnia,13376
-2159,642,Orchidaceae,Coeloglossum,凹舌蘭屬,Dactylorhiza,13381
-2175,642,Orchidaceae,Ephemerantha,暫花蘭屬,Flickingeria,2271
-554,354,Papaveraceae,Eschscholtzia,花菱草屬,Eschscholzia,13374
-313,885,Petiveriaceae,Rivinia,數珠珊瑚屬,Rivina,13373
-2397,628,Poaceae,Pollinia,,Microstegium,1979
-12876,628,Poaceae,Ophiurus,,Ophiuros,13370
-12831,628,Poaceae,Loydia,,Pennisetum,1992
-1925,628,Poaceae,Chaetochloa,,Setaria,2012
-12879,628,Poaceae,Osterdamia,,Zoysia,2033
-195,206,Podocarpaceae,Decussocarpus,竹柏屬,Podocarpus,194
-193,206,Podocarpaceae,Nageia,竹柏屬,Podocarpus,194
-13185,317,Polygonaceae,Tovara,,Antenoron,311
-155,132,Polypodiaceae,Drymotaenium,二條線蕨屬,Lepisorus,158
-152,132,Polypodiaceae,Belvisia,尖嘴蕨屬,Lepisorus,158
-75,119,Pteridaceae,Neurogramme,,Neurogramme,13372
-932,435,Rhamnaceae,Zizyphus,棗屬,Ziziphus,12880
-13050,516,Rubiaceae,Hymenopogon,,Neohymenopogon,13371
-897,426,Sapindaceae,Melicocca,蜜果屬,Melicoccus,13377
-1165,507,Sapotaceae,Achras,人心果屬,Manilkara,13380
-937,436,Vitaceae,Columella,,Cayratia,935
-1589,539,,Billis,,Bellis,13385
-2287,610,,Cordiocrinum,大百合屬,Cardiocrinum,13386
-254,308,,Castillosa,美洲膠屬,Castilla,13382
-38,111,,Crepidophylium,厚邊蕨屬,Crepidomanes,24
-1816,618,,Crocosma,,Crocosmia,2354
-1370,523,,Kinotemon,四齒萼草屬,Kinostemon,13383
-2313,333,,Macilus,,Machilus,475
-1544,529,,Metapetrocomea,,Metapetrocosmea,13384
-51,115,,Wicrolepia,,Microlepia,47
-337,321,,Trianthemum,假海馬齒屬,Trianthema,13378
-13211,311,,Megahertzia,,,
-301,315,,Mistletoe,,,
-761,409,,Spertium,,,
-989,445,,Douralis,,,
-1191,512,,Geniostema,偽木荔枝屬,,
-1426,525,,Antirrhimum,金魚草屬,,
-1634,539,,Hemistepta,泥胡菜屬,,
-1660,539,,Sanvitaria,,,
-1764,610,,Reineckia,,,
-1766,610,,Ruccus,,,
-1785,612,,Eurcraea,,,
-2148,642,,Brassolaeliocattleya,,,
-2257,642,,Vandacostylis,,,
-2309,642,,Cyperochis,,,
-2324,339,,Stephamia,,,
-2395,324,,Melandrim,,,
-12663,515,,Erro,,,
-12727,610,,Lilae,,,
-12742,417,,Dinosperma,,,
-12825,539,,Gymnaster,,,
-13154,357,,Torularia,,,
-13302,456,,Cleistocalyx,,,
-13335,125,,Athyriorumohra,,,
+hast_genus_id	hast_family_id	family_apgiv	genus	genus_zh	acceptedGenus	acceptedNamecode
+1246	514	Apocynaceae	Stephanotis	舌瓣花屬	Marsdenia	1245
+1607	539	Asteraceae	Crassocephalum	昭和草屬	Gynura	1628
+402	327	Cactaceae	Frailea		Parodia	13379
+351	324	Caryophyllaceae	Lychnis	剪夏羅屬	Silene	355
+12667	627	Cyperaceae	Dichromena		Rhynchospora	1889
+819	415	Euphorbiaceae	Omalanthus	圓葉血桐屬	Homalanthus	826
+704	409	Fabaceae	Haematoxylon	墨水樹屬	Haematoxylum	13375
+13337	116	Lindsaeaceae	Stenoloma		Odontosoria	2315
+871	421	Malpighiaceae	Triopteris		Mascagnia	13376
+2159	642	Orchidaceae	Coeloglossum	凹舌蘭屬	Dactylorhiza	13381
+2175	642	Orchidaceae	Ephemerantha	暫花蘭屬	Flickingeria	2271
+554	354	Papaveraceae	Eschscholtzia	花菱草屬	Eschscholzia	13374
+313	885	Petiveriaceae	Rivinia	數珠珊瑚屬	Rivina	13373
+2397	628	Poaceae	Pollinia		Microstegium	1979
+12876	628	Poaceae	Ophiurus		Ophiuros	13370
+12831	628	Poaceae	Loydia		Pennisetum	1992
+1925	628	Poaceae	Chaetochloa		Setaria	2012
+12879	628	Poaceae	Osterdamia		Zoysia	2033
+195	206	Podocarpaceae	Decussocarpus	竹柏屬	Podocarpus	194
+193	206	Podocarpaceae	Nageia	竹柏屬	Podocarpus	194
+13185	317	Polygonaceae	Tovara		Antenoron	311
+155	132	Polypodiaceae	Drymotaenium	二條線蕨屬	Lepisorus	158
+152	132	Polypodiaceae	Belvisia	尖嘴蕨屬	Lepisorus	158
+75	119	Pteridaceae	Neurogramme		Neurogramme	13372
+932	435	Rhamnaceae	Zizyphus	棗屬	Ziziphus	12880
+13050	516	Rubiaceae	Hymenopogon		Neohymenopogon	13371
+897	426	Sapindaceae	Melicocca	蜜果屬	Melicoccus	13377
+1165	507	Sapotaceae	Achras	人心果屬	Manilkara	13380
+937	436	Vitaceae	Columella		Cayratia	935
+1589	539		Billis		Bellis	13385
+2287	610		Cordiocrinum	大百合屬	Cardiocrinum 	13386
+254	308		Castillosa	美洲膠屬	Castilla	13382
+38	111		Crepidophylium	厚邊蕨屬	Crepidomanes	24
+1816	618		Crocosma		Crocosmia	2354
+1370	523		Kinotemon	四齒萼草屬	Kinostemon 	13383
+2313	333		Macilus		Machilus	475
+1544	529		Metapetrocomea		Metapetrocosmea 	13384
+51	115		Wicrolepia		Microlepia	47
+337	321		Trianthemum	假海馬齒屬	Trianthema	13378
+13211	311		Megahertzia			
+301	315		Mistletoe			
+761	409		Spertium			
+989	445		Douralis			
+1191	512		Geniostema	偽木荔枝屬		
+1426	525		Antirrhimum	金魚草屬		
+1634	539		Hemistepta	泥胡菜屬		
+1660	539		Sanvitaria			
+1764	610		Reineckia			
+1766	610		Ruccus			
+1785	612		Eurcraea			
+2148	642		Brassolaeliocattleya			
+2257	642		Vandacostylis			
+2309	642		Cyperochis			
+2324	339		Stephamia			
+2395	324		Melandrim			
+12663	515		Erro			
+12727	610		Lilae			
+12742	417		Dinosperma			
+12825	539		Gymnaster			
+13154	357		Torularia			
+13302	456		Cleistocalyx			
+13335	125		Athyriorumohra			

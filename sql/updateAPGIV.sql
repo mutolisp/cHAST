@@ -37,4 +37,9 @@ UPDATE hast_genus SET family_apgiv=a.family_apg4 FROM (SELECT distinct family_ap
     from namelist where family_apg4 is not null order by family_apg4,genus_apg3) as a WHERE hast_genus.genus=a.genus_apg3;
 
 
+-- 新增 species 中的 genus 欄位
+ALTER TABLE hast_species ADD COLUMN genus varchar;
+UPDATE hast_species SET genus = split_part(name, ' ', 1);
+UPDATE hast_species SET hast_genus_id = g.hast_genus_id FROM (SELECT * FROM hast_genus) as g WHERE g.genus=hast_species.genus;
+
 COMMIT;

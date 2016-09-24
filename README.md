@@ -8,7 +8,8 @@
 
 ## 比對過後的檔案
 
-欄位說明如下：
+csv 檔案皆使用 UTF-8 編碼，並使用 tab 分隔<br/>
+欄位說明如下：<br/>
 
 ### 確認過的科屬關係對照(genus)
 
@@ -53,7 +54,17 @@ hast_questionable_genus.csv
 | acceptedGenus    | 接受的屬名                   |
 | acceptedNamecode | 接受的屬名 hast_genus_id     |
 
+### 更新對照後的物種清單(species)
 
+hast_species.csv
+
+| 欄位名稱         | 欄位說明                     |
+| ---------------- | ---------------------------- |
+| hast_species_id  | HAST 種 id                   |
+| hast_genus_id    | HAST 屬 id                   |
+| genus            | 屬名                         |
+| name             | 物種學名                     |
+| vernacularName   | 物種中名                     |
 
 ## References
 
