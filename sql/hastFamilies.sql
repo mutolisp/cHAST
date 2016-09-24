@@ -291,7 +291,7 @@ COPY nomenclature.hast_families (hast_family_id, family, family_zh ) FROM stdin;
 728	Restionaceae	帚燈草科
 729	Bataceae	藜木科
 730	Podostemaceae	川苔草科
-731	Brunelliaceae	\N
+731	Brunelliaceae	槽柱花科
 732	Calycanthaceae	蠟梅科
 733	Ochnaceae	金蓮木科
 734	Tapisciaceae	癭椒樹科
